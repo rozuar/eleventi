@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Eleventi — software a medida. Construimos productos digitales: plataformas web, apps móviles y herramientas que resuelven problemas reales." />
+  <title>Eleventi — Software a medida</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236366f1'/><text x='50' y='70' font-size='62' font-family='monospace' font-weight='700' fill='white' text-anchor='middle'>11</text></svg>" />
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#inicio" class="brand">
+        <span class="brand__mark">11</span>
+        <span class="brand__name">Eleventi</span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto" class="nav__cta">Hablemos</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero__glow"></div>
+    <div class="container hero__inner">
+      <p class="eyebrow">Estudio de software · Chile</p>
+      <h1 class="hero__title">
+        Convertimos ideas en
+        <span class="grad">productos digitales</span>
+        que la gente usa todos los días.
+      </h1>
+      <p class="hero__lead">
+        Somos Eleventi. Diseñamos y construimos plataformas web, aplicaciones móviles
+        y herramientas a medida — desde la primera línea de código hasta producción.
+      </p>
+      <div class="hero__actions">
+        <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+        <a href="#contacto" class="btn btn--ghost">Cuéntanos tu idea →</a>
+      </div>
+      <dl class="stats">
+        <div><dt>5+</dt><dd>productos en producción</dd></div>
+        <div><dt>100%</dt><dd>código a medida</dd></div>
+        <div><dt>Web · Móvil · IA</dt><dd>full-stack</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ===== Proyectos ===== -->
+  <section class="section" id="proyectos">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Portafolio</p>
+        <h2 class="section__title">Algunos de nuestros proyectos</h2>
+        <p class="section__sub">Productos reales que hemos diseñado, desarrollado y puesto en marcha.</p>
+      </div>
+
+      <div class="grid">
+        <!-- Box Magic -->
+        <article class="card" style="--accent:#22c55e">
+          <div class="card__top">
+            <span class="card__icon">🏋️</span>
+            <span class="card__tag">SaaS · Gestión</span>
+          </div>
+          <h3 class="card__title">Box Magic</h3>
+          <p class="card__desc">
+            Plataforma de gestión para gimnasios y boxes de CrossFit: reservas con
+            lista de espera y auto-promoción, agenda de clases, control de miembros,
+            pagos y métricas. La operación completa de un box en un solo lugar.
+          </p>
+          <ul class="chips">
+            <li>Reservas</li><li>Membresías</li><li>Pagos</li><li>Dashboard</li>
+          </ul>
+        </article>
+
+        <!-- FiniquitoCheck -->
+        <article class="card" style="--accent:#3b82f6">
+          <div class="card__top">
+            <span class="card__icon">⚖️</span>
+            <span class="card__tag">LegalTech</span>
+          </div>
+          <h3 class="card__title">FiniquitoCheck</h3>
+          <p class="card__desc">
+            Analizador de finiquitos y despidos para Chile. Valida los cálculos según
+            el Código del Trabajo y detecta posibles vulneraciones a los derechos del
+            trabajador, en lenguaje claro y sin tecnicismos.
+          </p>
+          <ul class="chips">
+            <li>Cálculo legal</li><li>Código del Trabajo</li><li>Reportes</li>
+          </ul>
+        </article>
+
+        <!-- VetLand -->
+        <article class="card" style="--accent:#f59e0b">
+          <div class="card__top">
+            <span class="card__icon">🐾</span>
+            <span class="card__tag">SaaS · Salud</span>
+          </div>
+          <h3 class="card__title">VetLand</h3>
+          <p class="card__desc">
+            Sistema de gestión para clínicas veterinarias con múltiples roles: los
+            dueños registran sus mascotas, reservan citas y solicitan urgencias,
+            mientras la clínica administra fichas, agenda y atenciones. Disponible
+            también como PWA.
+          </p>
+          <ul class="chips">
+            <li>Fichas de mascotas</li><li>Citas</li><li>Urgencias</li><li>PWA</li>
+          </ul>
+        </article>
+
+        <!-- Condominio Viña Pelvin -->
+        <article class="card" style="--accent:#14b8a6">
+          <div class="card__top">
+            <span class="card__icon">🏘️</span>
+            <span class="card__tag">Gestión · IoT</span>
+          </div>
+          <h3 class="card__title">Condominio Viña Pelvin</h3>
+          <p class="card__desc">
+            Plataforma integral para la gestión de un condominio: portal para
+            vecinos, backoffice para la directiva y app móvil. Incluye control de
+            acceso del portón en tiempo real vía MQTT, gestión de asistencia y avisos
+            a la comunidad.
+          </p>
+          <ul class="chips">
+            <li>Portal vecinos</li><li>Backoffice</li><li>App móvil</li><li>Portón IoT</li>
+          </ul>
+        </article>
+
+        <!-- Alexis Art -->
+        <article class="card" style="--accent:#a855f7">
+          <div class="card__top">
+            <span class="card__icon">🎨</span>
+            <span class="card__tag">Portafolio</span>
+          </div>
+          <h3 class="card__title">Alexis Art</h3>
+          <p class="card__desc">
+            Portafolio digital del artista Alexis Barros: galería de obras, imágenes
+            y videos, bitácoras de su proceso creativo y un backoffice para gestionar
+            todo el contenido. Web, backoffice y app móvil.
+          </p>
+          <ul class="chips">
+            <li>Galería</li><li>Backoffice</li><li>App móvil</li>
+          </ul>
+        </article>
+
+        <!-- Tu proyecto -->
+        <article class="card card--cta">
+          <h3 class="card__title">¿El próximo eres tú?</h3>
+          <p class="card__desc">
+            Tenemos espacio para una idea más. Si tienes un problema que el software
+            puede resolver, conversémoslo.
+          </p>
+          <a href="#contacto" class="btn btn--primary btn--sm">Empezar un proyecto →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Servicios ===== -->
+  <section class="section section--alt" id="servicios">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Qué hacemos</p>
+        <h2 class="section__title">Servicios</h2>
+      </div>
+      <div class="grid grid--3">
+        <div class="service">
+          <span class="service__num">01</span>
+          <h3>Desarrollo web</h3>
+          <p>Aplicaciones y plataformas a medida con tecnologías modernas, rápidas y escalables.</p>
+        </div>
+        <div class="service">
+          <span class="service__num">02</span>
+          <h3>Apps móviles</h3>
+          <p>Aplicaciones iOS y Android conectadas a tus sistemas, con una experiencia cuidada.</p>
+        </div>
+        <div class="service">
+          <span class="service__num">03</span>
+          <h3>Producto & diseño</h3>
+          <p>Desde la idea al diseño de la interfaz: validamos, prototipamos y entregamos.</p>
+        </div>
+        <div class="service">
+          <span class="service__num">04</span>
+          <h3>APIs & backend</h3>
+          <p>Servicios robustos, integraciones con terceros y arquitecturas que aguantan.</p>
+        </div>
+        <div class="service">
+          <span class="service__num">05</span>
+          <h3>IA aplicada</h3>
+          <p>Automatización y análisis con modelos de lenguaje y visión por computador.</p>
+        </div>
+        <div class="service">
+          <span class="service__num">06</span>
+          <h3>Soporte & evolución</h3>
+          <p>Mantenemos, mejoramos y hacemos crecer lo que construimos contigo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Proceso ===== -->
+  <section class="section" id="proceso">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Cómo trabajamos</p>
+        <h2 class="section__title">Un proceso simple y claro</h2>
+      </div>
+      <ol class="steps">
+        <li><span>1</span><h3>Conversamos</h3><p>Entendemos el problema, los usuarios y los objetivos.</p></li>
+        <li><span>2</span><h3>Diseñamos</h3><p>Prototipamos la solución y definimos el alcance.</p></li>
+        <li><span>3</span><h3>Construimos</h3><p>Desarrollo iterativo, con entregas y feedback continuo.</p></li>
+        <li><span>4</span><h3>Lanzamos</h3><p>Puesta en producción, soporte y mejora continua.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== Contacto ===== -->
+  <section class="section section--alt" id="contacto">
+    <div class="container cta">
+      <h2 class="cta__title">¿Tienes una idea en mente?</h2>
+      <p class="cta__sub">Cuéntanos qué quieres construir. Respondemos rápido.</p>
+      <div class="cta__actions">
+        <a href="mailto:roberto.zuniga.araya@gmail.com" class="btn btn--primary">Escríbenos</a>
+        <a href="#proyectos" class="btn btn--ghost">Ver proyectos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#inicio" class="brand">
+        <span class="brand__mark">11</span>
+        <span class="brand__name">Eleventi</span>
+      </a>
+      <p class="footer__copy">© <span id="year"></span> Eleventi · Software a medida · Chile</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
